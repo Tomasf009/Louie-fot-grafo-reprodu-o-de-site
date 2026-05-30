@@ -1,0 +1,271 @@
+* {
+    margin: 0%;
+    transition: 0.5s;
+}
+
+header{
+    height: 100vh; /* pra altura % nao funciona, tem que usar vh :) */
+    width: 22%;
+    background-color: #e9e9e9;
+    position: fixed;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    margin-left: 22%;
+    width: 78%;
+    background-color: #f3f3f3;
+}
+
+/* se vira pra transformar essa joça num slide show */
+section img{ 
+    width: 50%;
+    height: 100vh;
+}
+
+#main-txt{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#h1-direita{
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    position: relative;
+    right: 35%;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+h2 i{
+    color: rgb(197, 177, 113);
+    font-style: normal;
+}
+
+#main-txt p{
+    font-family: "Montserrat";
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    position: relative;
+    right: 8%;
+}
+
+h3{
+    font-family: "Herr Von Muellerhoff";
+    font-weight: 400;
+    font-size: 40px;   
+    position: relative;
+    right: 35%;
+}
+
+#main-txt ul{   
+    position: relative;
+    right: 35%;
+}
+
+#main-txt li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-txt span{
+    font-size: 70px;
+    color: #e6e6e6;
+    font-family: "Montserrat";
+    font-weight: 900;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 19%;
+    right: 350px;
+
+}
+
+.social-media{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+}
+
+.social-media img{
+    height: 26px;
+    width: 26px;
+    padding: 20px;
+}
+
+/* aqui ta os negocio da esquerda tlgd */
+
+.menu{
+    display: flex;
+    width: 180px;
+    margin: 30%;
+    margin-top: 10%;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    margin-bottom: 300px;
+}
+
+#pfp{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu h1{
+    width: 160px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.menu ul{
+    padding: 20px;
+}
+
+.menu li{
+    padding: 10px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    font-family: "Poppins";
+}
+
+footer h1{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer input{
+    padding: 15px;
+}
+
+footer img{
+    position: relative;
+    top: 70px;
+    left: 75px;
+
+    height: 20px;
+    width: 20px;
+}
+
+/* coisas mais pra baixo da primeira tela tlgd*/
+
+.fotos-instagram{
+    margin-left: 22%;
+    width: 78%;
+    background-color: #f3f3f3;
+}
+
+.fotos-instagram h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Poppins';
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.fotos-instagram div{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.fotos-instagram img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/* footerzão aqui ta aqui tlgd */
+
+.footerzao{
+    display: flex;
+    justify-content: center;
+    margin-left: 22%;
+    background-color: rgb(31, 31, 31);
+    color: rgba(255, 255, 255, 0.5);
+    height: 58vh;
+}
+
+.trem-do-footer{
+    display: flex;
+    justify-content: center;
+}
+
+#footer-item-1{
+    height: 300px;
+    width: 300px;
+}
+
+#footer-item-1 h1{
+    margin-top: 80px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#grid-fotos{
+    height: 200px;  
+    width: 270px;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#grid-fotos img{
+    height: 100px;
+    width: 90px;
+    object-fit: cover;
+}
+
+#footer-item-2{
+    margin-left: 40px;
+}
+
+#footer-item-2 h1{
+    margin-top: 80px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+}
+
+#footer-item-2 li{
+    width: 350px;
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.5);
+}
+
